@@ -14,6 +14,7 @@
 		5B538EF521A90F2500AFAA76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B538EF321A90F2500AFAA76 /* LaunchScreen.storyboard */; };
 		5B538F0021A90F2500AFAA76 /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B538EFF21A90F2500AFAA76 /* TinderTests.swift */; };
 		5B538F0B21A90F2600AFAA76 /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B538F0A21A90F2600AFAA76 /* TinderUITests.swift */; };
+		5B538F1921A917A500AFAA76 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B538F1821A917A500AFAA76 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B538F0621A90F2600AFAA76 /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B538F0A21A90F2600AFAA76 /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		5B538F0C21A90F2600AFAA76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B538F1821A917A500AFAA76 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5B538EF121A90F2500AFAA76 /* Assets.xcassets */,
 				5B538EF321A90F2500AFAA76 /* LaunchScreen.storyboard */,
 				5B538EF621A90F2500AFAA76 /* Info.plist */,
+				5B538F1821A917A500AFAA76 /* ProfileViewController.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B538F1921A917A500AFAA76 /* ProfileViewController.swift in Sources */,
 				5B538EED21A90F2500AFAA76 /* ViewController.swift in Sources */,
 				5B538EEB21A90F2500AFAA76 /* AppDelegate.swift in Sources */,
 			);
